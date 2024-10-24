@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    background-image: url(images/Imagen_fondo.png);
+    background-repeat: no-repeat; 
+    background-position: center bottom;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 800;
+    color: #1a4578;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 16px;
+    color: #515151;
+    margin-bottom: 35px;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo {
+    float: right;
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: 800;
+    margin-top: 25px;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #dbdbdb;
+}
+
+.menu .navbar ul li a:hover {
+    color: #FFFFFF;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-txt {
+    width: 50%;
+}
+
+.header-txt h1 {
+    font-size: 55px;
+    color: #FFFFFF;
+    font-weight: 800;
+    margin-bottom: 35px;
+}
+
+.header-txt p {
+    color: #bcbcbc;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.header-img {
+    margin-top: 100px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 10px 35px;
+    background-color: #19BFB7;
+    color: #FFFFFF;
+    border-radius: 25px;
+}
+
+.btn-1:hover {
+    background-color: #148882;
+}
+
+.header-img {
+    width:50%;
+    text-align: right;
+}
+
+.header-img img {
+    width: 400px;
+}
